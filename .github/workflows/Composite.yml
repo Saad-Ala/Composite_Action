@@ -11,4 +11,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: colbyfayock/egghead-demo-github-action-hello-world@v1.0.1
     - uses: Saad-Ala/Node_CI@main
