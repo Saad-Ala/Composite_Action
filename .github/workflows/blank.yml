@@ -1,0 +1,14 @@
+name: Hello World - Composite
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: Saad-Ala/Node_CI@main
